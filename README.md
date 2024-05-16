@@ -8,4 +8,7 @@ As of making my first commit there are a few bugs:
     - it does not like keys pressed simultaneously
 
 And I would like to add something that would ask you if you are playing single
-player or multiplayer. 
+player or multiplayer.
+
+This code is not optimized, unsure of if I have plans to optimize it in the 
+future as it was a test for working with JS and graphics 
