@@ -1,0 +1,27 @@
+#words {
+    text-align: center;
+    color: black;
+}
+
+#score {
+    text-align: center;
+    color: black;
+}
+
+#backCanvas {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%);
+    border-style: solid;
+    background-color: aquamarine;
+}
+
+#updateCanvas {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    transform: translate(-50%);
+    border-style: solid;
+    border-color: black; 
+}
