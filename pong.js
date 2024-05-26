@@ -169,7 +169,7 @@ class rect {
         //checks balls location and updates the scoreboard
         if (this.x + 20 >= 500) {
             //oppenent score
-            player += 1;
+            oppenent += 1;
             printScore =  oppenent + " - " + player;
             scoreBoard.innerText = printScore;
             console.log("oppenent scored");
@@ -186,7 +186,7 @@ class rect {
 
         if (this.x <= 0) {
             //player score
-            oppenent +=1;
+            player +=1;
             printScore =  oppenent + " - " + player;   
             scoreBoard.innerText = printScore;
             console.log("player scored");
